@@ -12,17 +12,20 @@ export default function TextForm(props) {
         console.log('text is now changed to uppercase');
         const newText = text.toUpperCase();
         setText(newText);
+        props.showAlert("changed to uppercase", "success");
     }
 
     const changeLowCase = () => {
         console.log('changed to lowercase');
         const newText = text.toLowerCase();
         setText(newText);
+        props.showAlert("changed to lowercase", "success");
     }
     const clearText = () => {
         console.log('textbox cleared');
         const newText = '';
         setText(newText);
+        props.showAlert("text has been cleared", "success");
     }
     return (
         <>
