@@ -1,0 +1,71 @@
+{
+    "status": "ok",
+    "totalResults": 5,
+    "articles": [
+        {
+            "source": {
+                "id": "news-com-au",
+                "name": "News.com.au"
+            },
+            "author": "Nic Savage",
+            "title": "Cricket star hospitalised after fireball crash",
+            "description": "<p>India wicketkeeper Rishabh Pant has been hospitalised following a car accident near Roorkee in Uttarakhand.</p>",
+            "url": "https://www.news.com.au/sport/cricket/indian-cricketer-rishabh-pant-hospitalised-after-car-accident/news-story/471a353898af9aaefd71904f1c0bb85b",
+            "urlToImage": "https://content.api.news/v3/images/bin/b996cda57dbc0b0b66c3befc65117bd3",
+            "publishedAt": "2022-12-30T05:27:00Z",
+            "content": "India wicketkeeper Rishabh Pant has been hospitalised following a car accident near Roorkee in Uttarakhand.\r\nAccording to local reports, the 25-year-old’s car collided with a highway road divider whi… [+1192 chars]"
+        },
+        {
+            "source": {
+                "id": "google-news-in",
+                "name": "Google News (India)"
+            },
+            "author": "NDTV Sports Desk",
+            "title": "Cricket Fraternity Wishes Speedy Recovery To Rishabh Pant After Car Crash",
+            "description": "After Rishabh Pant got injured in the road accident, people from all walks of life took to Twitter and wished the cricketer a speedy recovery",
+            "url": "https://sports.ndtv.com/cricket/praying-for-rishabh-pant-twitter-concerned-as-india-cricketer-suffers-horrific-car-crash-3649792",
+            "urlToImage": "https://c.ndtvimg.com/2022-12/eqic0598_rishabh-pant-806_625x300_30_December_22.jpg",
+            "publishedAt": "2022-12-30T04:24:55+00:00",
+            "content": "India wicketkeeper-batter Rishabh Pant on Friday sustained injuries after his car collided with the divider and caught fire while he was travelling from Delhi to Uttarakhand. He was driving his Merce… [+4125 chars]"
+        },
+        {
+            "source": {
+                "id": "bbc-sport",
+                "name": "BBC Sport"
+            },
+            "author": null,
+            "title": "Azeem Rafiq: Hate crime inquiry after man defecates in cricketer's garden",
+            "description": "Ex-Yorkshire bowler Azeem Rafiq says he has been abused since highlighting racism at his old club.",
+            "url": "http://www.bbc.co.uk/news/uk-england-south-yorkshire-64116986",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/5C39/production/_127990632_rafiq.jpg",
+            "publishedAt": "2022-12-30T01:37:24.0000625Z",
+            "content": "A hate crime investigation has been started by police after a man defecated in the garden of former Yorkshire cricketer Azeem Rafiq.\r\nEarlier this month, the ex-bowler told MPs he had become a target… [+1501 chars]"
+        },
+        {
+            "source": {
+                "id": "espn-cric-info",
+                "name": "ESPN Cric Info"
+            },
+            "author": null,
+            "title": "PCB hands Umar Akmal three-year ban from all cricket | ESPNcricinfo.com",
+            "description": "Penalty after the batsman pleaded guilty to not reporting corrupt approaches | ESPNcricinfo.com",
+            "url": "http://www.espncricinfo.com/story/_/id/29103103/pcb-hands-umar-akmal-three-year-ban-all-cricket",
+            "urlToImage": "https://a4.espncdn.com/combiner/i?img=%2Fi%2Fcricket%2Fcricinfo%2F1099495_800x450.jpg",
+            "publishedAt": "2020-04-27T11:41:47Z",
+            "content": "Umar Akmal's troubled cricket career has hit its biggest roadblock yet, with the PCB handing him a ban from all representative cricket for three years after he pleaded guilty of failing to report det… [+1506 chars]"
+        },
+        {
+            "source": {
+                "id": "espn-cric-info",
+                "name": "ESPN Cric Info"
+            },
+            "author": null,
+            "title": "What we learned from watching the 1992 World Cup final in full again | ESPNcricinfo.com",
+            "description": "Wides, lbw calls, swing - plenty of things were different in white-ball cricket back then | ESPNcricinfo.com",
+            "url": "http://www.espncricinfo.com/story/_/id/28970907/learned-watching-1992-world-cup-final-full-again",
+            "urlToImage": "https://a4.espncdn.com/combiner/i?img=%2Fi%2Fcricket%2Fcricinfo%2F1219926_1296x729.jpg",
+            "publishedAt": "2020-03-30T15:26:05Z",
+            "content": "Last week, we at ESPNcricinfo did something we have been thinking of doing for eight years now: pretend-live ball-by-ball commentary for a classic cricket match. We knew the result, yes, but we tried… [+6823 chars]"
+        }
+    ]
+}
