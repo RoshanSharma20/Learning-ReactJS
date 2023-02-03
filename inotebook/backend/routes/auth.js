@@ -30,7 +30,7 @@ router.post('/createuser', [
         let user = await User.findOne({ email: req.body.email });
         // console.log(user);
         if (user) {
-            return res.status(400).json({ errors: "Sorry a user with this email already exists" });
+            return res.status(400).json({ success: false, errors: "Sorry a user with this email already exists" });
         }
 
         const salt = await bcrypt.genSalt(10);
@@ -46,7 +46,7 @@ router.post('/createuser', [
             }
         };
         const authToken = jwt.sign(data, jwt_secret);
-        res.json({ authToken: authToken });
+        res.json({ success: true, authToken: authToken });
         // res.json(user);
         // .then(user => res.json(user)).catch(err => console.log(err));
     } catch (error) {
@@ -70,11 +70,11 @@ router.post('/login', [
     try {
         let user = await User.findOne({ email });
         if (!user) {
-            return res.status(400).json({ error: "please try to login with correct credentials" });
+            return res.status(400).json({ success: false, error: "please try to login with correct credentials" });
         }
         const passwordCompare = await bcrypt.compare(password, user.password);
         if (!passwordCompare) {
-            return res.status(400).json({ error: "please try to login with correct credentials" });
+            return res.status(400).json({ success: false, error: "please try to login with correct credentials" });
         }
         const data = {
             user: {
@@ -82,7 +82,7 @@ router.post('/login', [
             }
         };
         const authToken = jwt.sign(data, jwt_secret);
-        res.json({ authToken: authToken });
+        res.json({ success: true, authToken: authToken });
 
     } catch (error) {
         console.log(error.message);
