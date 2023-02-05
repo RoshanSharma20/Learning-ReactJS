@@ -13,7 +13,7 @@ const NotesState = (props) => {
             credentials: 'same-origin',
             headers: {
                 'Content-Type': 'application/json',
-                "auth-token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjNkNjZhNjcwZDQ3MWYyNDZkMjM0MzI0In0sImlhdCI6MTY3NTQwNzA5M30.i__S1VhU5WkD82LjN0G2R51EgYckL403p9FiBOno4Mc"
+                "auth-token": localStorage.getItem('token')
             },
         });
         const json = await response.json();
@@ -28,7 +28,7 @@ const NotesState = (props) => {
             credentials: 'same-origin',
             headers: {
                 'Content-Type': 'application/json',
-                "auth-token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjNkNjZhNjcwZDQ3MWYyNDZkMjM0MzI0In0sImlhdCI6MTY3NTQwNzA5M30.i__S1VhU5WkD82LjN0G2R51EgYckL403p9FiBOno4Mc"
+                "auth-token": localStorage.getItem('token')
             },
             body: JSON.stringify({ title, description, tag }) // body data type must match "Content-Type" header
         });
@@ -42,7 +42,7 @@ const NotesState = (props) => {
             credentials: 'same-origin',
             headers: {
                 'Content-Type': 'application/json',
-                "auth-token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjNkNjZhNjcwZDQ3MWYyNDZkMjM0MzI0In0sImlhdCI6MTY3NTQwNzA5M30.i__S1VhU5WkD82LjN0G2R51EgYckL403p9FiBOno4Mc"
+                "auth-token": localStorage.getItem('token')
             },
         });
         const json = await response.json();
@@ -57,7 +57,7 @@ const NotesState = (props) => {
             credentials: 'same-origin',
             headers: {
                 'Content-Type': 'application/json',
-                "auth-token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjNkNjZhNjcwZDQ3MWYyNDZkMjM0MzI0In0sImlhdCI6MTY3NTQwNzA5M30.i__S1VhU5WkD82LjN0G2R51EgYckL403p9FiBOno4Mc"
+                "auth-token": localStorage.getItem('token')
             },
             body: JSON.stringify({ title, description, tag }) // body data type must match "Content-Type" header
         });
